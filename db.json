@@ -1,0 +1,34 @@
+{
+  "diseases": [
+    {
+      "id": "1",
+      "region": "North",
+      "diseaseName": "FMD",
+      "cases": "100",
+      "symptoms": "Fever, Blisters",
+      "treatment": "Vaccination",
+      "prevention": "Quarantine",
+      "image": "https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_003.jpg"
+    },
+    {
+      "id": "2",
+      "region": "South",
+      "diseaseName": "Anthrax",
+      "cases": "50",
+      "symptoms": "Sudden death, bleeding from orifices",
+      "treatment": "Penicillin",
+      "prevention": "Vaccination, burning carcasses",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/AnthraxBacillus.jpg/640px-AnthraxBacillus.jpg"
+    },
+    {
+      "id": "1744904337860",
+      "region": "Nakuru",
+      "diseaseName": "Anthrax",
+      "cases": "25",
+      "symptoms": "1. Sudden death\n2.Fever\n3.Respiratory Distress",
+      "treatment": "Anthrax in animals is often difficult to treat, and penicillin is the antibiotic of choice",
+      "prevention": "vaccination\nProper Disposal\nPreventing Scavengers\nSteralization",
+      "image": "https://edge.sitecorecloud.io/mmanual-ssq1ci05/media/veterinary/images/a/n/t/anthrax-bovine-carcass-galante-sized.jpg?sc_lang=en&mw=1200"
+    }
+  ]
+}

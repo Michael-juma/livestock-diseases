@@ -13,7 +13,7 @@ export default function DiseaseSearch() {
     if (!query.trim()) return;
     setLoading(true);
 
-    // Query the diseaseData endpoint with full-text search
+    
     fetch(`http://localhost:5000/diseaseData?q=${query}`)
       .then(function (res) {
         return res.json();
