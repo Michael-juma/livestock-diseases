@@ -5,6 +5,7 @@ import DiseaseSearch from './Components/DiseaseSearch';
 import DiseaseCollection from './Components/DiseaseCollection';
 import DiseaseForm from './Components/DiseaseForm';
 import Video from './Components/Video';
+import NavBar from './Components/NavBar';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
     
   return (
     <div className="App"> 
+    <NavBar/>
       <Dashboard/>
       <DiseaseSearch/>
       <DiseaseCollection diseases={diseases} setDiseases={setDiseases}/>
