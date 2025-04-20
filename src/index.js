@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import About from './Components/About';
+import Explore from './Components/Explore';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,11 @@ const router = createBrowserRouter([
   { 
     path : "/about",
     element : <About/>,
+  },
+  
+  {
+    path : "/explore",
+    element : <Explore/>,
   }
 ]);
   
