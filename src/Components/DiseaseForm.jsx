@@ -71,7 +71,7 @@ export default function DiseaseForm({ setDiseases }) {
   };
 
   return (
-    <div className="card mt-4 p-5 col-md-6">
+    <div className="container mt-4 p-5 col-md-6 align-items-center">
       <h1 className="strong">Add New Disease</h1>
       <small>Add your entry below</small>
       <form onSubmit={handleSubmit}>
