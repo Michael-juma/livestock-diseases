@@ -1,10 +1,10 @@
 export default function Video() {
     return (
-      <div>
-         <h2 className="text-xl font-semibold mb-2">
+      <div className="p-6 bg bg-info-100 min-h-screen">
+         <h2 className="text-xl font-semibold mb-2 text-center text-success">
           Watch the Video: Understanding Livestock Diseases
         </h2>
-        <p>
+        <p className="mb-6 container bg bg-info">
             This video provides an introduction to livestock diseases, how they
             impact animal health, and the importance of early detection and
             management. Learn more about common diseases, their symptoms, and

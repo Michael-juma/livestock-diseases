@@ -9,17 +9,7 @@ import NavBar from './Components/NavBar';
 
 
 function App() {
-  const [diseases, setDiseases] = useState([
-    {
-      region: "North",
-      diseaseName: "FMD",
-      cases: "100",
-      symptoms: "Fever, Blisters",
-      treatment: "Vaccination",
-      prevention: "Quarantine",
-      image: "https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_003.jpg"
-    }
-  ]);
+  const [diseases, setDiseases] = useState([]);
     useEffect(() => {
       fetchDiseases();
     }, []);
@@ -38,7 +28,14 @@ function App() {
  
     
   return (
-    <div className="App"> 
+    <div className="App"
+      style={{
+        backgroundImage: `url("https://i.pinimg.com/474x/74/f4/13/74f413376ac1a14ff588803be8d26e21.jpg")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "300vh",
+      }}
+    > 
     <NavBar/>
       <Dashboard/>
       <DiseaseSearch/>

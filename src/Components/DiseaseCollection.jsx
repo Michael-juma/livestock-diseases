@@ -1,10 +1,10 @@
 
-export default function DiseaseCollection(diseases, setDiseases) {
+export default function DiseaseCollection(diseases) {
  
     return (
-      <div>
+      <div className="p-6 bg-info-100 min-h-screen">
         <h2 className="text-xl font-semibold text-center mb-2">Disease List</h2>
-        <div className="w-full h-full bg-gray-200 flex items-center justify-center rounded">
+        <div className="w-full h-full bg bg-info flex items-center justify-center rounded">
           <table className="table table-bordered border-danger table-striped table-hover">
             <thead>
               <tr>
@@ -20,11 +20,29 @@ export default function DiseaseCollection(diseases, setDiseases) {
                 <td className="p-4">North</td>
                 <td className="p-4">FMD</td>
                 <td className="p-4">100</td>
-                <td className="p-4">Fever, Blisters</td>
+                <td className="p-4">High fever (lasts 2–3 days)
+
+Excessive salivation ("drooling")
+
+Blisters (vesicles) on:
+
+Mouth and tongue (causes drooling, difficulty eating)
+
+Hooves (leads to limping or lameness)
+
+Teats (can reduce milk production)
+
+Depression, weight loss
+
+Decrease in milk yield
+
+Painful movement or reluctance to move
+
+</td>
                 <td className="p-4">Vaccination</td>
                 <td className="p-4">Quarantine</td>
                 <td className="p-4">
-                  <img
+                <img
                     src="https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_003.jpg"
                     className="img-fluid w-25 h-25 rounded"
                     alt="Animal"
