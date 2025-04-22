@@ -33,7 +33,7 @@ function App() {
         backgroundImage: `url("https://i.pinimg.com/474x/74/f4/13/74f413376ac1a14ff588803be8d26e21.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "300vh",
+        height: "400vh",
       }}
     > 
     <NavBar/>

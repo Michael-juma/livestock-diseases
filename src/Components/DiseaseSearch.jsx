@@ -14,7 +14,7 @@ export default function DiseaseSearch() {
     setLoading(true);
 
     
-    fetch(`http://localhost:5000/diseaseData?q=${query}`)
+    fetch(`?q=${query}`)
       .then(function (res) {
         return res.json();
       })
