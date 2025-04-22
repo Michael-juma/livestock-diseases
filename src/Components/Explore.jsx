@@ -11,21 +11,27 @@ export default function AllAbout() {
       name: "H5N1 Avian Influenza (Bird Flu)",
       image:
         "https://media.istockphoto.com/id/1440434242/video/sick-chickens-disease-outbreaks-symptoms-and-clinical-signs-with-high-mortality.jpg?s=640x640&k=20&c=2aP_DwbDfVdhOoSferoF3ccPltDwlQOvqU1trfoYwL8=",
-      description: "A highly contagious viral disease affecting birds.",
+      description:
+        "Avian Influenza (H5N1 HPAI), also known as bird flu, is a highly infectious, systemic disease of poultry caused by an Orthomyxovirus of the genus Influenzavirus A. Most AI viruses cause asymptomatic infections or mild diseases in poultry.",
       region: "Asia, Europe, Africa",
       rate: "High",
-      symptoms: "Coughing, sneezing, nasal discharge, sudden death",
-      treatment: "No specific treatment; supportive care",
-      prevention: "Biosecurity, surveillance, culling",
+      symptoms:
+        "Coughing, sneezing, nasal discharge, sudden death Neurological signs commonly reported include head twitching, ataxia, tremors, torticollis, and opisthotonos [174,175]. The degree of neurovirulence of HPAI H5Nx viruses depends on the virus and the infected bird species.",
+      treatment:
+        "If identified early, you can treat bird flu with antiviral medications. A provider might prescribe: Oseltamivir (Tamiflu®) Peramivir (Rapivab®)",
+      prevention:
+        "Biosecurity, surveillance, culling Minimizing contact with secretions (mucus, saliva), blood, or feces from infected birds and mammals is key to preventing avian influenza A(H5N1) infections",
     },
     {
       name: "African Swine Fever (ASF)",
       image:
         "https://media.istockphoto.com/id/470953896/photo/sick-pig-in-farm.jpg?b=1&s=612x612&w=0&k=20&c=31bVyhuomtHmmrPnu5O_r8cAh9sxuW5-vDalj7xhEhQ=",
-      description: "A viral disease affecting domestic and wild pigs.",
+      description:
+        "African Swine Fever (ASF) is a highly contagious viral disease of pigs. In its acute form the disease generally results in high mortality. ASF is a different disease to swine flu. The virus does not affect people and there is no impact on human health..",
       region: "Sub-Saharan Africa, Europe, Asia",
       rate: "Very High",
-      symptoms: "High fever, internal bleeding, high mortality",
+      symptoms:
+        "In the acute form pigs develop a high temperature (40.5 degrees C or 105 degrees F), then become dull and go off their food. Other symptoms can vary but will include some or all of the following: vomiting. diarrhoea (sometimes bloody)",
       treatment: "No cure or vaccine available",
       prevention: "Quarantine, proper disposal, strict hygiene",
     },
@@ -125,7 +131,7 @@ export default function AllAbout() {
       <div className="container my-4">
         <h2 className="text-center mb-3">All About Livestock Diseases</h2>
         <p className="text-center">
-          Click on a disease to learn more about its effects, symptoms, and
+         These are the most Trending diseases Click on a disease to learn more about its effects, symptoms, and
           prevention.
         </p>
         <div className="row">
