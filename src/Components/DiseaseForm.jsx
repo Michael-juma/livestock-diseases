@@ -22,45 +22,36 @@ export default function DiseaseForm({ setDiseases }) {
       });
 
       const result = await response.json();
-      console.log(result);
+      console.log("Saved disease:", result);
 
       if (response.ok) {
         alert("Disease added successfully");
+
+        if (typeof setDiseases === "function") {
+          setDiseases((prev) => [...prev, result]);
+        }
+
+        setFormData({
+          region: "",
+          diseaseName: "",
+          cases: "",
+          symptoms: "",
+          treatment: "",
+          prevention: "",
+          image: "",
+        });
       } else {
-        alert("Error adding disease");
+        alert("Error adding disease.");
       }
     } catch (error) {
       alert("Server error. Could not add disease.");
-      console.error(error);
+      console.error("POST error:", error);
     }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    const newDisease = {
-      ...formData,
-      id: Date.now(),
-    };
-
-    if (typeof setDiseases === "function") {
-      setDiseases((prev) => [...prev, newDisease]);
-    } else {
-      console.warn("setDiseases is not a function. Skipping local update.");
-    }
-
-    postDiseases(newDisease);
-
-    
-    setFormData({
-      region: "",
-      diseaseName: "",
-      cases: "",
-      symptoms: "",
-      treatment: "",
-      prevention: "",
-      image: "",
-    });
+    postDiseases(formData);
   };
 
   const handleOnChange = (e) => {

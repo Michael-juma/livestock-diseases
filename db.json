@@ -29,6 +29,16 @@
       "treatment": "Anthrax in animals is often difficult to treat, and penicillin is the antibiotic of choice",
       "prevention": "vaccination\nProper Disposal\nPreventing Scavengers\nSteralization",
       "image": "https://edge.sitecorecloud.io/mmanual-ssq1ci05/media/veterinary/images/a/n/t/anthrax-bovine-carcass-galante-sized.jpg?sc_lang=en&mw=1200"
+    },
+    {
+      "id": "9a8e",
+      "region": "mombasa",
+      "diseaseName": "mouth disease",
+      "cases": "33",
+      "symptoms": "limping",
+      "treatment": "proper vaccination",
+      "prevention": "proper cleanling",
+      "image": "https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_006sm.jpg"
     }
   ]
 }

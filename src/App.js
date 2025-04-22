@@ -30,10 +30,11 @@ function App() {
   return (
     <div className="App"
       style={{
-        backgroundImage: `url("https://i.pinimg.com/474x/74/f4/13/74f413376ac1a14ff588803be8d26e21.jpg")`,
+        backgroundImage: `url("https://i.pinimg.com/736x/02/c8/19/02c8190ca30141f5e8f5ea5c5ff8ae7b.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "400vh",
+        
       }}
     > 
     <NavBar/>
