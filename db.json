@@ -5,9 +5,9 @@
       "region": "North",
       "diseaseName": "FMD",
       "cases": "100",
-      "symptoms": "Fever, Blisters",
-      "treatment": "Vaccination",
-      "prevention": "Quarantine",
+      "symptoms": "Animals with FMD typically have a fever and blisters on the tongue and lips, in and around the mouth, on the mammary glands, and around the hooves..",
+      "treatment": "There is no specific treatment for FMD. In endemic countries antibiotic therapy may be used to control secondary bacterial infection of ulcers but recovery takes several weeks to months. .",
+      "prevention": "Quarantine, Isolate sick animals from the herd to minimize disease spread. - Isolation should be at a minimum 28-30 days (which equals two incubation periods for FMD).",
       "image": "https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_003.jpg"
     },
     {
@@ -39,6 +39,17 @@
       "treatment": "proper vaccination",
       "prevention": "proper cleanling",
       "image": "https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_006sm.jpg"
+    },
+    
+    {
+      "id": "cc8a",
+      "region": "Nakuru",
+      "diseaseName": "Swine Erysipelas",
+      "cases": "100",
+      "symptoms": "Diamond-shaped, skin lesions, fever , lameness",
+      "treatment": "Antibiotics (penicillin), Anti-inflammatory drugs, Supportive care",
+      "prevention": "Vaccination,\n          Good hygiene,\n          Rodent control,\n          Proper disposal of carcasses,\n          Avoiding overcrowding",
+      "image": "https://edge.sitecorecloud.io/mmanual-ssq1ci05/media/veterinary/images/a/c/u/acute-swine-erysipelas-skin-form-high.jpg?sc_lang=en&mw=2048"
     }
   ]
 }

@@ -1,0 +1,1141 @@
+{
+    "diseases": [
+      {
+        "id": 1,
+        "name": "Foot and Mouth Disease",
+        "scientificName": "Aphthovirus",
+        "description": "A highly contagious viral disease affecting cloven-hoofed animals",
+        "symptoms": [
+          "Fever",
+          "Blisters on mouth and feet",
+          "Excessive salivation",
+          "Lameness",
+          "Reduced milk production",
+          "Weight loss"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats", "Pigs"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Movement restrictions",
+          "Biosecurity measures",
+          "Quarantine of new animals",
+          "Proper disinfection of equipment"
+        ],
+        "treatment": [
+          "No specific treatment",
+          "Supportive care",
+          "Anti-inflammatory medication",
+          "Soft food and bedding",
+          "Isolation of affected animals"
+        ],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "2-14 days"
+      },
+      {
+        "id": 2,
+        "name": "Bovine Tuberculosis",
+        "scientificName": "Mycobacterium bovis",
+        "description": "A chronic bacterial disease affecting primarily cattle",
+        "symptoms": [
+          "Weight loss",
+          "Weakness",
+          "Intermittent fever",
+          "Chronic cough",
+          "Enlarged lymph nodes",
+          "Reduced milk production"
+        ],
+        "affectedAnimals": ["Cattle", "Deer", "Bison"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Testing and culling",
+          "Movement restrictions",
+          "Biosecurity measures",
+          "Pasteurization of milk",
+          "Wildlife management"
+        ],
+        "treatment": [
+          "Culling is usually recommended",
+          "Antibiotics (rarely used due to resistance concerns)",
+          "No practical treatment in livestock"
+        ],
+        "severity": "High",
+        "zoonotic": true,
+        "incubationPeriod": "Months to years"
+      },
+      {
+        "id": 3,
+        "name": "Brucellosis",
+        "scientificName": "Brucella species",
+        "description": "A bacterial infection affecting multiple species and causing reproductive issues",
+        "symptoms": [
+          "Abortion",
+          "Retained placenta",
+          "Reduced fertility",
+          "Swollen joints",
+          "Lameness",
+          "Reduced milk production"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats", "Pigs", "Dogs"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Testing and culling",
+          "Biosecurity measures",
+          "Proper disposal of aborted fetuses",
+          "Pasteurization of milk"
+        ],
+        "treatment": [
+          "Antibiotics (tetracyclines, streptomycin)",
+          "Culling often recommended",
+          "Long-term treatment required"
+        ],
+        "severity": "High",
+        "zoonotic": true,
+        "incubationPeriod": "2 weeks to several months"
+      },
+      {
+        "id": 4,
+        "name": "Bovine Viral Diarrhea",
+        "scientificName": "Bovine viral diarrhea virus",
+        "description": "A viral disease affecting cattle with various clinical manifestations",
+        "symptoms": ["Diarrhea", "Fever", "Respiratory issues", "Abortion", "Birth defects", "Mucosal lesions"],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Testing and removal of persistently infected animals",
+          "Biosecurity measures",
+          "Quarantine of new animals"
+        ],
+        "treatment": [
+          "Supportive care",
+          "Fluid therapy",
+          "Antibiotics for secondary infections",
+          "Anti-inflammatory drugs"
+        ],
+        "severity": "Moderate to High",
+        "zoonotic": false,
+        "incubationPeriod": "5-7 days"
+      },
+      {
+        "id": 5,
+        "name": "Mastitis",
+        "scientificName": "Various bacterial pathogens",
+        "description": "Inflammation of the mammary gland in dairy animals",
+        "symptoms": [
+          "Swollen udder",
+          "Pain in udder",
+          "Abnormal milk (clots, watery, discolored)",
+          "Reduced milk production",
+          "Fever",
+          "Reduced appetite"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Proper milking hygiene",
+          "Regular teat dipping",
+          "Clean housing",
+          "Proper nutrition",
+          "Culling of chronic cases"
+        ],
+        "treatment": [
+          "Antibiotics (intramammary or systemic)",
+          "Anti-inflammatory drugs",
+          "Frequent milking",
+          "Supportive care"
+        ],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "1-3 days"
+      },
+      {
+        "id": 6,
+        "name": "Anthrax",
+        "scientificName": "Bacillus anthracis",
+        "description": "An acute bacterial disease affecting multiple species",
+        "symptoms": [
+          "Sudden death",
+          "Bloody discharge from body openings",
+          "High fever",
+          "Swelling of neck and chest",
+          "Respiratory distress",
+          "Convulsions"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats", "Horses", "Pigs"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Proper disposal of carcasses",
+          "Avoidance of contaminated areas",
+          "Soil treatment in endemic areas"
+        ],
+        "treatment": [
+          "Antibiotics (penicillin, tetracyclines)",
+          "Early treatment essential",
+          "Often fatal if not treated promptly"
+        ],
+        "severity": "Very High",
+        "zoonotic": true,
+        "incubationPeriod": "1-14 days"
+      },
+      {
+        "id": 7,
+        "name": "Bluetongue",
+        "scientificName": "Bluetongue virus",
+        "description": "A viral disease affecting ruminants, transmitted by Culicoides midges",
+        "symptoms": [
+          "Fever",
+          "Swelling of face and tongue",
+          "Blue discoloration of tongue",
+          "Nasal discharge",
+          "Drooling",
+          "Lameness"
+        ],
+        "affectedAnimals": ["Sheep", "Cattle", "Goats", "Deer"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Vector control",
+          "Housing animals during peak vector activity",
+          "Movement restrictions"
+        ],
+        "treatment": ["No specific treatment", "Supportive care", "Anti-inflammatory drugs", "Soft food and water"],
+        "severity": "High in sheep, Moderate in cattle",
+        "zoonotic": false,
+        "incubationPeriod": "5-20 days"
+      },
+      {
+        "id": 8,
+        "name": "Classical Swine Fever",
+        "scientificName": "Classical swine fever virus",
+        "description": "A highly contagious viral disease affecting pigs",
+        "symptoms": [
+          "High fever",
+          "Huddling",
+          "Loss of appetite",
+          "Conjunctivitis",
+          "Purple discoloration of skin",
+          "Neurological signs"
+        ],
+        "affectedAnimals": ["Pigs", "Wild boar"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Biosecurity measures",
+          "Movement restrictions",
+          "Surveillance",
+          "Culling of infected herds"
+        ],
+        "treatment": ["No specific treatment", "Culling is usually recommended", "Supportive care in pet pigs"],
+        "severity": "Very High",
+        "zoonotic": false,
+        "incubationPeriod": "2-14 days"
+      },
+      {
+        "id": 9,
+        "name": "Johne's Disease",
+        "scientificName": "Mycobacterium avium subspecies paratuberculosis",
+        "description": "A chronic bacterial disease affecting the intestines of ruminants",
+        "symptoms": [
+          "Chronic weight loss",
+          "Diarrhea",
+          "Normal appetite initially",
+          "Reduced milk production",
+          "Bottle jaw (submandibular edema)",
+          "Weakness"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats", "Deer"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Testing and culling",
+          "Calf management",
+          "Colostrum management",
+          "Biosecurity measures",
+          "Vaccination (limited effectiveness)"
+        ],
+        "treatment": ["No effective treatment", "Culling is recommended", "Supportive care"],
+        "severity": "Moderate",
+        "zoonotic": "Suspected link to Crohn's disease in humans",
+        "incubationPeriod": "Years"
+      },
+      {
+        "id": 10,
+        "name": "Leptospirosis",
+        "scientificName": "Leptospira species",
+        "description": "A bacterial disease affecting multiple species and causing various clinical signs",
+        "symptoms": ["Fever", "Abortion", "Reduced fertility", "Jaundice", "Hemoglobinuria", "Kidney failure"],
+        "affectedAnimals": ["Cattle", "Pigs", "Sheep", "Goats", "Dogs", "Horses"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Rodent control",
+          "Avoiding contaminated water",
+          "Proper drainage",
+          "Isolation of infected animals"
+        ],
+        "treatment": ["Antibiotics (penicillin, streptomycin)", "Supportive care", "Fluid therapy"],
+        "severity": "Moderate to High",
+        "zoonotic": true,
+        "incubationPeriod": "4-20 days"
+      },
+      {
+        "id": 11,
+        "name": "Bovine Spongiform Encephalopathy",
+        "scientificName": "Prion",
+        "description": "A fatal neurodegenerative disease affecting cattle, also known as Mad Cow Disease",
+        "symptoms": [
+          "Behavioral changes",
+          "Nervousness",
+          "Aggression",
+          "Abnormal posture",
+          "Incoordination",
+          "Weight loss"
+        ],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Feed restrictions (no ruminant protein)",
+          "Surveillance",
+          "Proper disposal of specified risk materials",
+          "Import controls"
+        ],
+        "treatment": ["No treatment", "Always fatal", "Culling is required"],
+        "severity": "Very High",
+        "zoonotic": true,
+        "incubationPeriod": "2-8 years"
+      },
+      {
+        "id": 12,
+        "name": "Rabies",
+        "scientificName": "Lyssavirus",
+        "description": "A fatal viral disease affecting the nervous system of mammals",
+        "symptoms": [
+          "Behavioral changes",
+          "Aggression",
+          "Excessive salivation",
+          "Paralysis",
+          "Difficulty swallowing",
+          "Fear of water (hydrophobia)"
+        ],
+        "affectedAnimals": ["All mammals", "Cattle", "Dogs", "Cats", "Wildlife"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Avoiding contact with wildlife",
+          "Quarantine of imported animals",
+          "Control of stray animals"
+        ],
+        "treatment": ["No treatment once symptoms appear", "Always fatal", "Euthanasia is recommended"],
+        "severity": "Very High",
+        "zoonotic": true,
+        "incubationPeriod": "2 weeks to 6 months"
+      },
+      {
+        "id": 13,
+        "name": "Blackleg",
+        "scientificName": "Clostridium chauvoei",
+        "description": "An acute bacterial disease affecting primarily cattle and sheep",
+        "symptoms": [
+          "Sudden death",
+          "Swelling of muscles",
+          "Crepitation (gas under skin)",
+          "Lameness",
+          "Fever",
+          "Depression"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Proper disposal of carcasses",
+          "Avoiding soil disturbance in endemic areas",
+          "Good pasture management"
+        ],
+        "treatment": ["Antibiotics (penicillin)", "Often ineffective once clinical signs appear", "High mortality rate"],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "1-5 days"
+      },
+      {
+        "id": 14,
+        "name": "African Swine Fever",
+        "scientificName": "African swine fever virus",
+        "description": "A highly contagious viral disease affecting pigs with high mortality",
+        "symptoms": [
+          "High fever",
+          "Reddening of skin",
+          "Vomiting",
+          "Diarrhea (sometimes bloody)",
+          "Respiratory distress",
+          "Abortion"
+        ],
+        "affectedAnimals": ["Pigs", "Wild boar"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Biosecurity measures",
+          "Movement restrictions",
+          "Proper disposal of waste",
+          "Cooking food waste",
+          "Surveillance"
+        ],
+        "treatment": ["No treatment", "No vaccine available", "Culling is required"],
+        "severity": "Very High",
+        "zoonotic": false,
+        "incubationPeriod": "5-15 days"
+      },
+      {
+        "id": 15,
+        "name": "Avian Influenza",
+        "scientificName": "Influenza A virus",
+        "description": "A viral disease affecting birds with various strains of different pathogenicity",
+        "symptoms": [
+          "Sudden death",
+          "Respiratory distress",
+          "Decreased egg production",
+          "Swelling of head",
+          "Diarrhea",
+          "Neurological signs"
+        ],
+        "affectedAnimals": ["Chickens", "Turkeys", "Ducks", "Wild birds"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Biosecurity measures",
+          "Vaccination (for some strains)",
+          "Surveillance",
+          "Culling of infected flocks",
+          "Limiting contact with wild birds"
+        ],
+        "treatment": [
+          "No specific treatment",
+          "Culling is usually required for highly pathogenic strains",
+          "Supportive care for pet birds"
+        ],
+        "severity": "Very High for HPAI, Low to Moderate for LPAI",
+        "zoonotic": "Some strains (H5N1, H7N9)",
+        "incubationPeriod": "3-5 days"
+      },
+      {
+        "id": 16,
+        "name": "Newcastle Disease",
+        "scientificName": "Avian paramyxovirus type 1",
+        "description": "A viral disease affecting birds with respiratory and neurological signs",
+        "symptoms": [
+          "Respiratory distress",
+          "Neurological signs",
+          "Decreased egg production",
+          "Diarrhea",
+          "Swelling of head and neck",
+          "Sudden death"
+        ],
+        "affectedAnimals": ["Chickens", "Turkeys", "Wild birds"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Biosecurity measures",
+          "Surveillance",
+          "Proper disposal of dead birds",
+          "Quarantine of new birds"
+        ],
+        "treatment": ["No specific treatment", "Supportive care", "Antibiotics for secondary infections"],
+        "severity": "High",
+        "zoonotic": "Mild conjunctivitis in humans",
+        "incubationPeriod": "2-15 days"
+      },
+      {
+        "id": 17,
+        "name": "Equine Infectious Anemia",
+        "scientificName": "Equine infectious anemia virus",
+        "description": "A viral disease affecting horses and other equids",
+        "symptoms": ["Fever", "Depression", "Weight loss", "Anemia", "Edema of lower limbs", "Jaundice"],
+        "affectedAnimals": ["Horses", "Donkeys", "Mules"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Testing and quarantine",
+          "Insect control",
+          "Not sharing needles or equipment",
+          "Proper disposal of blood and tissues"
+        ],
+        "treatment": ["No specific treatment", "Supportive care", "Euthanasia or lifelong quarantine often required"],
+        "severity": "Moderate to High",
+        "zoonotic": false,
+        "incubationPeriod": "1-3 weeks"
+      },
+      {
+        "id": 18,
+        "name": "Equine Influenza",
+        "scientificName": "Equine influenza virus",
+        "description": "A viral respiratory disease affecting horses and other equids",
+        "symptoms": ["Dry cough", "Fever", "Nasal discharge", "Lethargy", "Loss of appetite", "Muscle soreness"],
+        "affectedAnimals": ["Horses", "Donkeys", "Mules"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Isolation of new horses",
+          "Good ventilation",
+          "Avoiding crowded events during outbreaks",
+          "Disinfection of equipment"
+        ],
+        "treatment": [
+          "Rest (1 week per day of fever)",
+          "Anti-inflammatory drugs",
+          "Supportive care",
+          "Antibiotics for secondary infections"
+        ],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "1-3 days"
+      },
+      {
+        "id": 19,
+        "name": "Strangles",
+        "scientificName": "Streptococcus equi",
+        "description": "A bacterial disease affecting horses characterized by abscessation of lymph nodes",
+        "symptoms": [
+          "Fever",
+          "Nasal discharge",
+          "Swollen lymph nodes",
+          "Abscess formation",
+          "Difficulty swallowing",
+          "Cough"
+        ],
+        "affectedAnimals": ["Horses", "Donkeys", "Mules"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Isolation of new horses",
+          "Disinfection of equipment",
+          "Quarantine of affected animals",
+          "Testing of carrier animals"
+        ],
+        "treatment": [
+          "Antibiotics (controversial)",
+          "Anti-inflammatory drugs",
+          "Hot compresses for abscesses",
+          "Drainage of abscesses",
+          "Supportive care"
+        ],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "3-14 days"
+      },
+      {
+        "id": 20,
+        "name": "Sheep Scab",
+        "scientificName": "Psoroptes ovis",
+        "description": "A parasitic disease affecting sheep caused by mites",
+        "symptoms": [
+          "Intense itching",
+          "Wool loss",
+          "Self-trauma",
+          "Crusting and scabbing",
+          "Weight loss",
+          "Restlessness"
+        ],
+        "affectedAnimals": ["Sheep"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Regular inspection",
+          "Quarantine of new animals",
+          "Proper dipping or injectable treatments",
+          "Avoiding shared equipment",
+          "Fence maintenance"
+        ],
+        "treatment": ["Injectable macrocyclic lactones", "Dipping", "Repeated treatments", "Supportive care"],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "2-3 weeks"
+      },
+      {
+        "id": 21,
+        "name": "Marek's Disease",
+        "scientificName": "Gallid alphaherpesvirus 2",
+        "description": "A viral disease affecting chickens causing tumors and paralysis",
+        "symptoms": [
+          "Paralysis of legs and wings",
+          "Irregular pupils",
+          "Weight loss",
+          "Tumors in internal organs",
+          "Skin lesions",
+          "Diarrhea"
+        ],
+        "affectedAnimals": ["Chickens"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination at hatchery",
+          "Good hygiene",
+          "Genetic resistance",
+          "All-in-all-out management",
+          "Proper disposal of dead birds"
+        ],
+        "treatment": ["No treatment", "Culling of affected birds", "Prevention is essential"],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "3-4 weeks"
+      },
+      {
+        "id": 22,
+        "name": "Infectious Bovine Rhinotracheitis",
+        "scientificName": "Bovine alphaherpesvirus 1",
+        "description": "A viral disease affecting cattle with respiratory and reproductive manifestations",
+        "symptoms": ["Nasal discharge", "Cough", "Conjunctivitis", "Abortion", "Reduced fertility", "Fever"],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Biosecurity measures",
+          "Isolation of new animals",
+          "Proper ventilation",
+          "Stress reduction"
+        ],
+        "treatment": [
+          "Supportive care",
+          "Anti-inflammatory drugs",
+          "Antibiotics for secondary infections",
+          "Fluid therapy"
+        ],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "2-6 days"
+      },
+      {
+        "id": 23,
+        "name": "Swine Erysipelas",
+        "scientificName": "Erysipelothrix rhusiopathiae",
+        "description": "A bacterial disease affecting pigs with acute or chronic manifestations",
+        "symptoms": ["Diamond-shaped skin lesions", "Fever", "Lameness", "Abortion", "Arthritis", "Sudden death"],
+        "affectedAnimals": ["Pigs"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Good hygiene",
+          "Rodent control",
+          "Proper disposal of carcasses",
+          "Avoiding overcrowding"
+        ],
+        "treatment": ["Antibiotics (penicillin)", "Anti-inflammatory drugs", "Supportive care"],
+        "severity": "Moderate",
+        "zoonotic": true,
+        "incubationPeriod": "1-7 days"
+      },
+      {
+        "id": 24,
+        "name": "Porcine Reproductive and Respiratory Syndrome",
+        "scientificName": "PRRS virus",
+        "description": "A viral disease affecting pigs with reproductive and respiratory manifestations",
+        "symptoms": [
+          "Reproductive failure",
+          "Abortion",
+          "Stillbirths",
+          "Respiratory distress",
+          "Fever",
+          "Reduced growth"
+        ],
+        "affectedAnimals": ["Pigs"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Biosecurity measures",
+          "All-in-all-out management",
+          "Quarantine of new animals",
+          "Air filtration"
+        ],
+        "treatment": [
+          "Supportive care",
+          "Antibiotics for secondary infections",
+          "Anti-inflammatory drugs",
+          "Good nutrition"
+        ],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "3-37 days"
+      },
+      {
+        "id": 25,
+        "name": "Contagious Bovine Pleuropneumonia",
+        "scientificName": "Mycoplasma mycoides",
+        "description": "A bacterial disease affecting cattle with respiratory manifestations",
+        "symptoms": [
+          "Respiratory distress",
+          "Cough",
+          "Fever",
+          "Nasal discharge",
+          "Chest pain",
+          "Reduced milk production"
+        ],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Movement restrictions",
+          "Testing and culling",
+          "Quarantine of new animals",
+          "Surveillance"
+        ],
+        "treatment": ["Antibiotics (tetracyclines)", "Often ineffective", "Culling is often recommended"],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "20-123 days"
+      },
+      {
+        "id": 26,
+        "name": "Contagious Caprine Pleuropneumonia",
+        "scientificName": "Mycoplasma capricolum",
+        "description": "A bacterial disease affecting goats with respiratory manifestations",
+        "symptoms": [
+          "Respiratory distress",
+          "Cough",
+          "Fever",
+          "Nasal discharge",
+          "Chest pain",
+          "Reduced milk production"
+        ],
+        "affectedAnimals": ["Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Movement restrictions",
+          "Testing and culling",
+          "Quarantine of new animals",
+          "Surveillance"
+        ],
+        "treatment": ["Antibiotics (tetracyclines)", "Often ineffective", "Culling is often recommended"],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "6-10 days"
+      },
+      {
+        "id": 27,
+        "name": "Peste des Petits Ruminants",
+        "scientificName": "Peste des petits ruminants virus",
+        "description": "A viral disease affecting small ruminants with high mortality",
+        "symptoms": ["Fever", "Nasal and ocular discharge", "Oral lesions", "Diarrhea", "Pneumonia", "Dehydration"],
+        "affectedAnimals": ["Sheep", "Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Movement restrictions",
+          "Biosecurity measures",
+          "Quarantine of new animals",
+          "Surveillance"
+        ],
+        "treatment": [
+          "No specific treatment",
+          "Supportive care",
+          "Antibiotics for secondary infections",
+          "Fluid therapy"
+        ],
+        "severity": "Very High",
+        "zoonotic": false,
+        "incubationPeriod": "4-6 days"
+      },
+      {
+        "id": 28,
+        "name": "Rift Valley Fever",
+        "scientificName": "Rift Valley fever virus",
+        "description": "A viral disease affecting multiple species, transmitted by mosquitoes",
+        "symptoms": [
+          "Abortion",
+          "High mortality in young animals",
+          "Fever",
+          "Weakness",
+          ["Abortion", "High mortality in young animals", "Fever", "Weakness", "Jaundice", "Hemorrhages"],
+          "affectedAnimals\": [\"Cattle",
+          "Sheep",
+          "Goats",
+          "Camels"
+        ],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Vector control",
+          "Avoiding endemic areas during outbreaks",
+          "Personal protective equipment for handlers",
+          "Proper cooking of meat"
+        ],
+        "treatment": ["No specific treatment", "Supportive care", "Fluid therapy", "Anti-inflammatory drugs"],
+        "severity": "High",
+        "zoonotic": true,
+        "incubationPeriod": "2-6 days"
+      },
+      {
+        "id": 29,
+        "name": "Lumpy Skin Disease",
+        "scientificName": "Lumpy skin disease virus",
+        "description": "A viral disease affecting cattle characterized by skin nodules",
+        "symptoms": [
+          "Skin nodules",
+          "Fever",
+          "Nasal discharge",
+          "Reduced milk production",
+          "Edema of limbs",
+          "Enlarged lymph nodes"
+        ],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Vector control",
+          "Movement restrictions",
+          "Quarantine of new animals",
+          "Biosecurity measures"
+        ],
+        "treatment": [
+          "No specific treatment",
+          "Supportive care",
+          "Antibiotics for secondary infections",
+          "Anti-inflammatory drugs"
+        ],
+        "severity": "Moderate to High",
+        "zoonotic": false,
+        "incubationPeriod": "4-14 days"
+      },
+      {
+        "id": 30,
+        "name": "Sheep and Goat Pox",
+        "scientificName": "Capripoxvirus",
+        "description": "A viral disease affecting sheep and goats characterized by skin lesions",
+        "symptoms": [
+          "Skin lesions",
+          "Fever",
+          "Nasal discharge",
+          "Reduced milk production",
+          "Pneumonia",
+          "Enlarged lymph nodes"
+        ],
+        "affectedAnimals": ["Sheep", "Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Movement restrictions",
+          "Quarantine of new animals",
+          "Biosecurity measures",
+          "Proper disposal of infected materials"
+        ],
+        "treatment": [
+          "No specific treatment",
+          "Supportive care",
+          "Antibiotics for secondary infections",
+          "Anti-inflammatory drugs"
+        ],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "4-14 days"
+      },
+      {
+        "id": 31,
+        "name": "Equine Encephalomyelitis",
+        "scientificName": "Various arboviruses",
+        "description": "A group of viral diseases affecting horses with neurological manifestations",
+        "symptoms": ["Neurological signs", "Fever", "Depression", "Incoordination", "Head pressing", "Blindness"],
+        "affectedAnimals": ["Horses", "Donkeys", "Mules"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Vector control",
+          "Housing during peak mosquito activity",
+          "Insect repellents",
+          "Eliminating standing water"
+        ],
+        "treatment": ["Supportive care", "Anti-inflammatory drugs", "Fluid therapy", "Anticonvulsants if needed"],
+        "severity": "High",
+        "zoonotic": true,
+        "incubationPeriod": "5-14 days"
+      },
+      {
+        "id": 32,
+        "name": "Bovine Babesiosis",
+        "scientificName": "Babesia species",
+        "description": "A parasitic disease affecting cattle transmitted by ticks",
+        "symptoms": ["Fever", "Anemia", "Jaundice", "Hemoglobinuria (red urine)", "Weakness", "Reduced milk production"],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Tick control",
+          "Regular inspection",
+          "Acaricide application",
+          "Pasture rotation",
+          "Vaccination in endemic areas"
+        ],
+        "treatment": [
+          "Antiparasitic drugs (imidocarb, diminazene)",
+          "Supportive care",
+          "Blood transfusion if severe",
+          "Anti-inflammatory drugs"
+        ],
+        "severity": "Moderate to High",
+        "zoonotic": "Rare",
+        "incubationPeriod": "7-21 days"
+      },
+      {
+        "id": 33,
+        "name": "Anaplasmosis",
+        "scientificName": "Anaplasma marginale",
+        "description": "A bacterial disease affecting cattle transmitted by ticks and biting flies",
+        "symptoms": ["Fever", "Anemia", "Jaundice", "Weakness", "Reduced milk production", "Abortion"],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Tick control",
+          "Vector control",
+          "Vaccination",
+          "Proper needle hygiene",
+          "Testing of new animals"
+        ],
+        "treatment": [
+          "Antibiotics (tetracyclines)",
+          "Supportive care",
+          "Blood transfusion if severe",
+          "Anti-inflammatory drugs"
+        ],
+        "severity": "Moderate to High",
+        "zoonotic": false,
+        "incubationPeriod": "3-8 weeks"
+      },
+      {
+        "id": 34,
+        "name": "Theileriosis",
+        "scientificName": "Theileria species",
+        "description": "A parasitic disease affecting cattle and small ruminants transmitted by ticks",
+        "symptoms": ["Fever", "Enlarged lymph nodes", "Anemia", "Jaundice", "Respiratory distress", "Weight loss"],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Tick control",
+          "Regular inspection",
+          "Acaricide application",
+          "Vaccination in endemic areas",
+          "Quarantine of new animals"
+        ],
+        "treatment": [
+          "Antiparasitic drugs (buparvaquone, parvaquone)",
+          "Supportive care",
+          "Anti-inflammatory drugs",
+          "Fluid therapy"
+        ],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "8-12 days"
+      },
+      {
+        "id": 35,
+        "name": "Coccidiosis",
+        "scientificName": "Eimeria species",
+        "description": "A parasitic disease affecting multiple species caused by protozoa",
+        "symptoms": [
+          "Diarrhea (sometimes bloody)",
+          "Weight loss",
+          "Dehydration",
+          "Weakness",
+          "Reduced growth",
+          "Reduced feed efficiency"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats", "Poultry", "Rabbits"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Good hygiene",
+          "Proper stocking density",
+          "Coccidiostats in feed",
+          "Proper manure management",
+          "Clean water sources"
+        ],
+        "treatment": ["Anticoccidial drugs", "Supportive care", "Fluid therapy", "Electrolyte replacement"],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "4-8 days"
+      },
+      {
+        "id": 36,
+        "name": "Fasciolosis",
+        "scientificName": "Fasciola hepatica",
+        "description": "A parasitic disease affecting ruminants caused by liver flukes",
+        "symptoms": [
+          "Weight loss",
+          "Anemia",
+          "Bottle jaw (submandibular edema)",
+          "Reduced milk production",
+          "Jaundice",
+          "Chronic diarrhea"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Drainage of wet areas",
+          "Fencing off wet areas",
+          "Strategic deworming",
+          "Snail control",
+          "Proper grazing management"
+        ],
+        "treatment": [
+          "Anthelmintics (triclabendazole, closantel)",
+          "Supportive care",
+          "Iron supplementation",
+          "Protein supplementation"
+        ],
+        "severity": "Moderate",
+        "zoonotic": true,
+        "incubationPeriod": "8-12 weeks"
+      },
+      {
+        "id": 37,
+        "name": "Salmonellosis",
+        "scientificName": "Salmonella species",
+        "description": "A bacterial disease affecting multiple species with various manifestations",
+        "symptoms": ["Diarrhea", "Fever", "Dehydration", "Abortion", "Septicemia", "Reduced production"],
+        "affectedAnimals": ["Cattle", "Pigs", "Poultry", "Sheep", "Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Good hygiene",
+          "Proper manure management",
+          "Clean water sources",
+          "Vaccination",
+          "Biosecurity measures"
+        ],
+        "treatment": ["Antibiotics", "Fluid therapy", "Electrolyte replacement", "Anti-inflammatory drugs", "Probiotics"],
+        "severity": "Moderate to High",
+        "zoonotic": true,
+        "incubationPeriod": "12-72 hours"
+      },
+      {
+        "id": 38,
+        "name": "Colibacillosis",
+        "scientificName": "Escherichia coli",
+        "description": "A bacterial disease affecting multiple species, especially young animals",
+        "symptoms": ["Diarrhea", "Dehydration", "Weakness", "Septicemia", "Sudden death", "Reduced growth"],
+        "affectedAnimals": ["Cattle", "Pigs", "Sheep", "Goats", "Poultry"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Good hygiene",
+          "Proper colostrum management",
+          "Vaccination of dams",
+          "Clean water sources",
+          "Proper stocking density"
+        ],
+        "treatment": ["Antibiotics", "Fluid therapy", "Electrolyte replacement", "Anti-inflammatory drugs", "Probiotics"],
+        "severity": "Moderate to High",
+        "zoonotic": "Some strains",
+        "incubationPeriod": "12-72 hours"
+      },
+      {
+        "id": 39,
+        "name": "Clostridial Enterotoxemia",
+        "scientificName": "Clostridium perfringens",
+        "description": "A bacterial disease affecting multiple species caused by toxin-producing bacteria",
+        "symptoms": [
+          "Sudden death",
+          "Diarrhea (sometimes bloody)",
+          "Abdominal pain",
+          "Neurological signs",
+          "Depression",
+          "Reduced feed intake"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep", "Goats", "Pigs"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Vaccination",
+          "Proper feeding management",
+          "Gradual diet changes",
+          "Avoiding overfeeding",
+          "Regular feeding schedule"
+        ],
+        "treatment": ["Antibiotics", "Antitoxin", "Supportive care", "Fluid therapy", "Anti-inflammatory drugs"],
+        "severity": "High",
+        "zoonotic": false,
+        "incubationPeriod": "12-36 hours"
+      },
+      {
+        "id": 40,
+        "name": "Actinobacillosis",
+        "scientificName": "Actinobacillus lignieresii",
+        "description": "A bacterial disease affecting cattle and sheep, also known as wooden tongue",
+        "symptoms": [
+          "Swelling of tongue",
+          "Difficulty eating",
+          "Salivation",
+          "Weight loss",
+          "Granulomatous lesions",
+          "Enlarged lymph nodes"
+        ],
+        "affectedAnimals": ["Cattle", "Sheep"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Avoiding rough feed",
+          "Proper feed processing",
+          "Good dental care",
+          "Regular inspection",
+          "Proper wound management"
+        ],
+        "treatment": [
+          "Antibiotics (penicillin, streptomycin)",
+          "Sodium iodide",
+          "Surgical drainage",
+          "Supportive care",
+          "Soft feed"
+        ],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "Variable"
+      },
+      {
+        "id": 41,
+        "name": "Actinomycosis",
+        "scientificName": "Actinomyces bovis",
+        "description": "A bacterial disease affecting cattle, also known as lumpy jaw",
+        "symptoms": [
+          "Bony swelling of jaw",
+          "Difficulty eating",
+          "Weight loss",
+          "Drooling",
+          "Tooth loss",
+          "Fistulous tracts"
+        ],
+        "affectedAnimals": ["Cattle"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Avoiding rough feed",
+          "Proper feed processing",
+          "Good dental care",
+          "Regular inspection",
+          "Proper wound management"
+        ],
+        "treatment": [
+          "Antibiotics (penicillin, streptomycin)",
+          "Sodium iodide",
+          "Surgical drainage",
+          "Supportive care",
+          "Soft feed"
+        ],
+        "severity": "Moderate",
+        "zoonotic": false,
+        "incubationPeriod": "Variable"
+      },
+      {
+        "id": 42,
+        "name": "Caprine Arthritis Encephalitis",
+        "scientificName": "Caprine arthritis encephalitis virus",
+        "description": "A viral disease affecting goats with arthritic and neurological manifestations",
+        "symptoms": ["Arthritis", "Lameness", "Neurological signs in kids", "Hard udder", "Weight loss", "Pneumonia"],
+        "affectedAnimals": ["Goats"],
+        "animalImageUrl": "/placeholder.svg?height=300&width=400",
+        "prevention": [
+          "Testing and culling",
+          "Separation of kids at birth",
+          "Heat-treated colostrum",
+          "Pasteurized milk for kids",
+          "Biosecurity measures"
+        ],
+        "treatment": [
+          "No specific treatment",
+          "Anti-inflammatory drugs",
+          "Supportive care",
+          "Culling is often recommended"
+        ],
+        "severity": "Moderate to High",
+        "zoonotic": false,
+        "incubationPeriod": "Months to years"
+      }
+    ]
+  }
+  

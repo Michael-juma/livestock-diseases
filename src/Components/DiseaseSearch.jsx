@@ -14,7 +14,7 @@ export default function DiseaseSearch() {
     setLoading(true);
 
     
-    fetch(`?q=${query}`)
+    fetch(`http://localhost:8001/diseases?q=${query}`)
       .then(function (res) {
         return res.json();
       })
@@ -90,7 +90,7 @@ export default function DiseaseSearch() {
                     <strong>Prevention:</strong> {item.prevention}
                   </p>
                   <p>
-                    <strong>Animal picture</strong>
+                    <strong>Affected animals</strong>
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function DiseaseSearch() {
 
       {!loading && results.length === 0 && query && (
         <p className="text-center text-gray-600">
-          No diseases found for "<strong>{query}</strong>"
+          searching "<strong>{query}</strong>"
         </p>
       )}
     </div>

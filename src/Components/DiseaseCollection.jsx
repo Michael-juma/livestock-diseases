@@ -17,10 +17,10 @@ export default function DiseaseCollection() {
   }, []);
 
   return (
-    <div className="p-6 bg-info-100 min-h-screen">
+    <div className=" container  bg-info-100 min-h-screen">
       <h2 className="text-xl font-semibold text-center mb-2">Disease List</h2>
       <div className="w-full h-full bg bg- flex items-center justify-center rounded">
-        <table className="table table-bordered border-danger table-striped table-hover">
+        <table className="w-full table table-bordered border-danger table-striped table-hover">
           <thead>
             <tr>
               <th className="p-4">Region</th>
@@ -41,11 +41,11 @@ export default function DiseaseCollection() {
                 <td className="p-4">{disease.symptoms}</td>
                 <td className="p-4">{disease.treatment}</td>
                 <td className="p-4">{disease.prevention}</td>
-                <td className="p-4">
+                <td className="p-2 w-1/3">
                   <img
                     src={disease.image}
                     alt="animal"
-                    className="img-fluid w-25 h-25 rounded"
+                    className="w-full h-full object-cover img-fluid rounded"
                   />
                 </td>
               </tr>

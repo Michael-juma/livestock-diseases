@@ -34,7 +34,7 @@ function App() {
         backgroundImage: `url("")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "400vh",
+        height: "450vh",
         
       }}
     > 
