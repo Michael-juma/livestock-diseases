@@ -30,7 +30,8 @@ function App() {
   return (
     <div className="App"
       style={{
-        backgroundImage: `url("https://i.pinimg.com/736x/02/c8/19/02c8190ca30141f5e8f5ea5c5ff8ae7b.jpg")`,
+        backgroundColor: "rgba(239, 8, 166, 0.15)",
+        backgroundImage: `url("")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "400vh",

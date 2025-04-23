@@ -19,7 +19,7 @@ export default function DiseaseCollection() {
   return (
     <div className="p-6 bg-info-100 min-h-screen">
       <h2 className="text-xl font-semibold text-center mb-2">Disease List</h2>
-      <div className="w-full h-full bg bg-info flex items-center justify-center rounded">
+      <div className="w-full h-full bg bg- flex items-center justify-center rounded">
         <table className="table table-bordered border-danger table-striped table-hover">
           <thead>
             <tr>

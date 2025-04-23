@@ -62,9 +62,9 @@ export default function DiseaseForm({ setDiseases }) {
   };
 
   return (
-    <div className="container bg bg-info mt-4 p-5 col-md-6 align-items-center">
-      <h1 className="strong">Add New Disease</h1>
-      <small>Add your entry below</small>
+    <div className="container  my-5 p-4 col-md-6 rounded shadow bg-light align-items-center">
+      <h1 className="mb-3 text-center text-primary">Add New Disease</h1>
+      <p className="text-center text-muted">Add your entry below</p>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="region" className="form-label">
