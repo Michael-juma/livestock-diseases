@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import NavBar from "./NavBar";
 import { Modal, Button } from "react-bootstrap";
 
 export default function AllAbout() {
@@ -127,7 +126,7 @@ export default function AllAbout() {
 
   return (
     <>
-      <NavBar />
+      
       <div className="container my-4">
         <h2 className="text-center mb-3">All About Livestock Diseases</h2>
         <p className="text-center">

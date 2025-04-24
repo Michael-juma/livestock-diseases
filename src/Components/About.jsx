@@ -1,10 +1,8 @@
-import NavBar from "./NavBar";
-
 export default function About() {
   return (
     <>
       <h1>About us</h1>
-      <NavBar />
+
       <div className="card text-center max-w-5xl mx-auto px-4 py-4">
         <h2 className="text-3xl font-bold mb-4">
           Welcome to the Livestock Disease Reasearch
@@ -38,11 +36,9 @@ export default function About() {
         <h2 className="text-2xl font-semibold mb-2">What We Do</h2>
         <p className="text-gray-700">
           We collect and organize information on livestock diseases from a
-          variety of trusted sources, offering:
-           . Disease Name and Information 
-           .Symptoms
-            . Treatments and Prevention Method 
-            . Research Articles and Resources
+          variety of trusted sources, offering: . Disease Name and Information
+          .Symptoms . Treatments and Prevention Method . Research Articles and
+          Resources
         </p>
       </div>
       <div className="card text-center max-w-5xl mx-auto px-4 py-4">
