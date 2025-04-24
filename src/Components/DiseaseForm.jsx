@@ -9,6 +9,7 @@ export default function DiseaseForm({ setDiseases }) {
     treatment: "",
     prevention: "",
     image: "",
+    description: "",
   });
 
   const postDiseases = async (data) => {
@@ -39,6 +40,7 @@ export default function DiseaseForm({ setDiseases }) {
           treatment: "",
           prevention: "",
           image: "",
+          description: "",
         });
       } else {
         alert("Error adding disease.");
@@ -94,6 +96,19 @@ export default function DiseaseForm({ setDiseases }) {
             value={formData.diseaseName}
             onChange={handleOnChange}
           />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="description" className="form-label">
+            Description
+          </label>
+          <textarea
+            className="form-control"
+            id="description"
+            name="description"
+            rows="3"
+            value={formData.description}
+            onChange={handleOnChange}
+          ></textarea>
         </div>
 
         <div className="mb-3">
@@ -151,7 +166,7 @@ export default function DiseaseForm({ setDiseases }) {
             onChange={handleOnChange}
           ></textarea>
         </div>
-
+     
         <div className="mb-3">
           <label htmlFor="image" className="form-label">
             Animal Image URL
