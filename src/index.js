@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './Components/About';
 import Explore from './Components/Explore';
+import Vet from './Components/Vet';
 import Dashboard from './Pages/Dashboard';
 import DiseaseSearch from './Components/DiseaseSearch';
 import DiseaseCollection from './Components/DiseaseCollection';
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "explore",
         element: <Explore />,
+      },
+      {
+        path: "vet",
+        element: <Vet />,
       }
     ]
   }
